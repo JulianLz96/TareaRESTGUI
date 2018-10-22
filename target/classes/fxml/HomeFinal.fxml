@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.gui.controllers.HomeController">
+   <children>
+      <Button fx:id="crearButton" layoutX="48.0" layoutY="236.0" mnemonicParsing="false" onAction="#Crear" text="Crear" />
+      <Button fx:id="modificarButton" layoutX="155.0" layoutY="236.0" mnemonicParsing="false" onAction="#Modificar" text="Modificar" />
+      <Button fx:id="eliminar" layoutX="324.0" layoutY="236.0" mnemonicParsing="false" onAction="#Eliminar" text="Eliminar " />
+      <Button fx:id="consultar" layoutX="458.0" layoutY="236.0" mnemonicParsing="false" onAction="#Consultar" text="Consultar" />
+      <TextField fx:id="marcaTextF" layoutX="48.0" layoutY="62.0" promptText="Marca" />
+      <TextField fx:id="modeloTextF" layoutX="48.0" layoutY="111.0" promptText="Modelo" />
+      <TextField fx:id="precioTextF" layoutX="48.0" layoutY="162.0" promptText="Precio" />
+      <TextField layoutX="285.0" layoutY="62.0" promptText="Id" />
+   </children>
+</Pane>
